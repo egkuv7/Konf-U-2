@@ -1,4 +1,4 @@
-# Dependency Graph Visualization Tool — Stage 1
+# Инструмент визуализации графа зависимостей для менеджера пакетов — Этап 1
 
 ## 1. Общее описание
 
@@ -100,7 +100,7 @@ python3 -m unittest discover -s tests
 
 **Windows:**
 ```cmd
-python -m unittest discover -s tests
+py -u -m unittest discover -s tests
 ```
 
 ### Ручной запуск приложения
@@ -112,7 +112,7 @@ python3 -m src.main
 
 **Windows:**
 ```cmd
-python -m src.main
+py -u -m src.main
 ```
 
 ### Проверка качества кода
@@ -206,17 +206,17 @@ filter_substring: lib
 $ python3 -m unittest discover -s tests
 ........
 ----------------------------------------------------------------------
-Ran 8 tests in 0.012s
+Ran 7 tests in 0.022s
 
 OK
 ```
 
 **Windows:**
 ```cmd
-C:\project> python -m unittest discover -s tests
-........
+C:\project> py -u -m unittest discover -s tests
+.......
 ----------------------------------------------------------------------
-Ran 8 tests in 0.012s
+Ran 7 tests in 0.022s
 
 OK
 ```

@@ -1,0 +1,24 @@
+Package: curl
+Version: 7.81.0-1ubuntu1.16
+Architecture: amd64
+Depends: libc6 (>= 2.34), libcurl4 (= 7.81.0-1ubuntu1.16), zlib1g (>= 1:1.1.4)
+
+Package: libcurl4
+Version: 7.81.0-1ubuntu1.16
+Architecture: amd64
+Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0), zlib1g (>= 1:1.2.11),
+ libnghttp2-14 (>= 1.43.0), libidn2-0 (>= 2.0.0)
+
+Package: wget
+Version: 1.21.2-2ubuntu1
+Architecture: amd64
+Depends: libc6 (>= 2.34), libssl3 (>= 3.0.0), debconf (>= 0.5) | debconf-2.0
+
+Package: hello
+Version: 2.10-2ubuntu4
+Architecture: amd64
+Depends: libc6 (>= 2.34)
+
+Package: coreutils
+Version: 8.32-4.1ubuntu1
+Architecture: amd64

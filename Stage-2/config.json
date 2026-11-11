@@ -1,0 +1,9 @@
+{
+    "package_name": "curl",
+    "repo_url": "tests/mock_packages.txt",
+    "test_mode": true,
+    "package_version": "7.81.0-1ubuntu1.16",
+    "output_image_name": "graph.svg",
+    "ascii_tree_mode": false,
+    "filter_substring": "lib"
+}
